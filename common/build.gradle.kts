@@ -35,6 +35,8 @@ kotlin {
             dependencies {
                 api("androidx.appcompat:appcompat:1.6.0")
                 api("androidx.core:core-ktx:1.9.0")
+                api ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+                api("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
             }
         }
 

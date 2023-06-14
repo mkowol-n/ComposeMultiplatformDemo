@@ -26,6 +26,10 @@ internal fun App(viewModel: AppViewModel = AppViewModel()) {
             Button(onClick = viewModel::random) {
                 Text("Kliknij mnie")
             }
+            Spacer(Modifier.size(16.dp))
+            Button(onClick = viewModel::randomAsync) {
+                Text("Kliknij mnie async")
+            }
         }
     }
 }
